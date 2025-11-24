@@ -14,10 +14,10 @@
   @apply p-4;
 }
 .cardHeader {
-  @apply p-4 border-b-2 border-gray-300;
+ @apply bg-gray-200 text-white px-4 py-2 text-lg font-semibold;
 }
 .cardTitle {
-  @apply text-xl font-bold text-amber-900;
+  @apply text-xl  text-black font-bold ;
 }
 .cardText {
   @apply text-gray-600 text-sm mt-2;
@@ -28,7 +28,7 @@
 }
 
 .postItem {
-  @apply flex items-start p-4 hover:bg-gray-50 cursor-pointer gap-3;
+  @apply flex items-start p-4 hover:bg-gray-50 cursor-pointer gap-3 border-b border-gray-300;
 }
 
 .postItem:last-child {

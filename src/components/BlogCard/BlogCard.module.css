@@ -7,7 +7,7 @@
 }
 
 .cardHeader {
-  @apply p-6 border-b border-gray-300;
+  @apply p-6  border-gray-300;
 }
 
 .cardTitle {
