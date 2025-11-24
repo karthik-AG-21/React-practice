@@ -1,0 +1,61 @@
+.sidebar {
+  @apply space-y-6;
+}
+
+.sideCard {
+  @apply bg-white rounded shadow-md overflow-hidden;
+}
+
+.cardImage {
+  @apply w-full h-48 object-cover;
+}
+
+.cardContent {
+  @apply p-4;
+}
+.cardHeader {
+  @apply p-4 border-b-2 border-gray-300;
+}
+.cardTitle {
+  @apply text-xl font-bold text-amber-900;
+}
+.cardText {
+  @apply text-gray-600 text-sm mt-2;
+}
+
+.postsList {
+  @apply list-none p-0 m-0;
+}
+
+.postItem {
+  @apply flex items-start p-4 hover:bg-gray-50 cursor-pointer gap-3;
+}
+
+.postItem:last-child {
+  @apply border-b-0;
+} 
+
+.postImage {
+  @apply w-12 h-12 rounded object-cover flex-shrink-0;
+}
+
+.postName {
+  @apply text-base font-semibold text-gray-800 block;
+}
+
+.postDesc {
+  @apply text-sm text-gray-600;
+}
+
+.tagsContainer {
+  @apply p-4 flex flex-wrap gap-2;
+}
+
+.tagItem {
+  @apply bg-gray-200 text-gray-800 px-3 py-1 rounded text-sm hover:bg-gray-300 cursor-pointer transition;
+}
+
+
+.tagItemBlack {
+  @apply bg-black text-white px-3 py-1 rounded text-sm hover:bg-gray-900 cursor-pointer transition;
+}
